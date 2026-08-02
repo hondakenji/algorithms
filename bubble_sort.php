@@ -16,8 +16,8 @@ function bubbleSort(array $list): array
         return $list;
     }
 
-    for($i = 0; $i < $size; $i++) {
-        for($j = 0; $j < $size - $i -1; $j++) {
+    for ($i = 0; $i < $size; $i++) {
+        for ($j = 0; $j < $size - $i -1; $j++) {
             if ($list[$j] > $list[$j + 1]) {
                 $tmp = $list[$j];
                 $list[$j] = $list[$j + 1];

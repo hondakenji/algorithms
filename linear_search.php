@@ -14,7 +14,7 @@ function linearSearch(array $list, int $target): int
         return -1;
     }
 
-    for($i = 0; $i < $size; $i++) {
+    for ($i = 0; $i < $size; $i++) {
         if ($list[$i] === $target) {
             return $i;
         }
